@@ -12,7 +12,7 @@ import { AeropuertoEntity } from './aeropuerto/aeropuerto.entity';
   imports: [AerolineaModule, AeropuertoModule, AeropuertoAerolineaModule,
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: '192.168.68.111',
+      host: 'localhost',
       port: 5432,
       username: 'postgres',
       password: 'postgres',
